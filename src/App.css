@@ -1,0 +1,74 @@
+body {
+  background-image: url(https://i.ytimg.com/vi/xURotp-9nHY/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AGkBYAC4AOKAgwIABABGDQgZShAMA8=&rs=AOn4CLA5m4aU1Okw53cfPa8uU0An3zd72A);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-image: url(https://i.kym-cdn.com/photos/images/original/002/321/605/770.jpg);
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-family: sans-serif;
+  opacity: 0.75;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #00ff22;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00ffaa;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.mensagem {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mensagem.sucesso {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.mensagem.erro {
+  background-color: #f8d7da;
+  color: #ffffff;
+  border: 1px solid #f5c6cb;
+}
+
+img{
+  margin: 130px;
+  text-align: center;
+}
